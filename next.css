@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;700&family=Pangolin&display=swap');
+
+* {
+	text-decoration: none;
+}
+body {
+	background-color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 60vh;
+	width: 100%;
+}
+
+.picture {
+	width: 50%;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('https://media3.giphy.com/media/tGw1AekOKUSWncbAqd/giphy.gif?cid=790b7611l179ojh09sunwv6urackingvu3bjxu1x904skz70&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+}
+.pictureYes {
+	width: 50%;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('https://media.tenor.com/JDo71KWH87EAAAAC/happy-happy-happy-cat.gif');
+}
+.pictureNo {
+	width: 50%;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('https://media1.tenor.com/m/T2uw8ew3tQwAAAAd/talking-cats-talking.gif');
+}
+
+.message {
+	font-family: 'Pangolin', cursive;
+	color: white;
+	font-size: 2rem;
+}
+.yes {
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+	color: rgb(151, 5, 5);
+	background-color: rgb(245, 245, 245);
+	align-self: flex-end;
+	font-family: 'Pangolin', cursive;
+}
+.no {
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+	color: rgb(151, 5, 5);
+	background-color: rgb(245, 245, 245);
+	align-self: flex-end;
+	font-family: 'Pangolin', cursive;
+}
+.hide {
+	display: none;
+	background-color: blue;
+}
+.back {
+	margin-left: 10px;
+	font-size: 30px;
+	color: white;
+
+	font-weight: bolder;
+}
