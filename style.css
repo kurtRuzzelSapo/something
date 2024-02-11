@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;700&family=Pangolin&display=swap');
+
+body {
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url('https://i.pinimg.com/originals/36/a3/cf/36a3cffbccd05e21336c4e418fe3d0e4.gif');
+}
+
+.card {
+	position: relative;
+	width: 300px;
+	height: 500px;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	transition: transform 1s ease;
+}
+
+.card:hover {
+	transform: rotateY(180deg);
+}
+
+.card .side {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	color: white;
+	border-radius: 10px;
+}
+
+.card .front {
+	/* background-color: #c9a8b2; */
+	background-color: rgb(147, 59, 49);
+	font-size: 1.7rem;
+}
+
+.message {
+	padding-bottom: 30px;
+	font-family: 'Pangolin', cursive;
+	color: rgb(255, 255, 255);
+}
+
+.card .back {
+	background-image: url('https://img.freepik.com/free-vector/cute-summer-decorated-frame-vector_53876-164999.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	transform: rotateY(180deg);
+}
+.message-back {
+	padding-bottom: 30px;
+	font-size: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	font-style: italic;
+	text-align: justify;
+	font-family: 'Pangolin', cursive;
+	color: red;
+}
+.next-btn {
+	width: 100px;
+	border-radius: 10%;
+	color: white;
+	background-color: red;
+	align-self: flex-end;
+	font-family: 'Pangolin', cursive;
+}
+.next-link {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: #00a0c6;
+	text-decoration: none;
+	cursor: pointer;
+}
